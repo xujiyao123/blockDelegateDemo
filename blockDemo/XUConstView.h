@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
+#import "XUEcation.h"
+
 @protocol XUConstViewDelegate;
 @interface XUConstView : UIView
 
@@ -30,7 +32,7 @@
 ///可选方法 不不要执行
 @optional
 ///回调点击action 传出自定义view;
-- (void)xuViewDidSeletView:(XUConstView *)view;
+//- (void)xuViewDidSeletView:(XUConstView *)view;
 
 ///定时器启动时需要干什么 回调timer对象  以及count
 - (void)timerBegion:(NSTimer *)timer Count:(NSInteger)count;

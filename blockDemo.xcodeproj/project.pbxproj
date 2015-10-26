@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B737230B1BA8124E00148107 /* XUEcation.m in Sources */ = {isa = PBXBuildFile; fileRef = B737230A1BA8124E00148107 /* XUEcation.m */; };
 		B76FEF441B7CF7D60049D895 /* XUConstView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76FEF431B7CF7D60049D895 /* XUConstView.m */; };
 		B7A69F8E1B7B2930004C38BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A69F8D1B7B2930004C38BA /* main.m */; };
 		B7A69F911B7B2930004C38BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A69F901B7B2930004C38BA /* AppDelegate.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B73723091BA8124E00148107 /* XUEcation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XUEcation.h; sourceTree = "<group>"; };
+		B737230A1BA8124E00148107 /* XUEcation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XUEcation.m; sourceTree = "<group>"; };
 		B76FEF421B7CF7D60049D895 /* XUConstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XUConstView.h; sourceTree = "<group>"; };
 		B76FEF431B7CF7D60049D895 /* XUConstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XUConstView.m; sourceTree = "<group>"; };
 		B7A69F881B7B2930004C38BA /* blockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +107,8 @@
 				B7A69F981B7B2930004C38BA /* Images.xcassets */,
 				B7A69F9A1B7B2930004C38BA /* LaunchScreen.xib */,
 				B7A69F8B1B7B2930004C38BA /* Supporting Files */,
+				B73723091BA8124E00148107 /* XUEcation.h */,
+				B737230A1BA8124E00148107 /* XUEcation.m */,
 			);
 			path = blockDemo;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			files = (
 				B7A69F941B7B2930004C38BA /* ViewController.m in Sources */,
 				B7F792321B7CC233008B4DAA /* PushViewController.m in Sources */,
+				B737230B1BA8124E00148107 /* XUEcation.m in Sources */,
 				B7A69F911B7B2930004C38BA /* AppDelegate.m in Sources */,
 				B76FEF441B7CF7D60049D895 /* XUConstView.m in Sources */,
 				B7A69FB31B7B2948004C38BA /* BlockObject.m in Sources */,

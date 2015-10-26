@@ -66,10 +66,18 @@ static char ButtonSeletKey;
 - (void)abuttonAction:(UIButton *)sender
 {
     ///判断代理 是否响应次方法  进行回调
-    if ([self.delegate respondsToSelector:@selector(xuViewDidSeletView:)]) {
-        ///实现代理 回调Action
-        [self.delegate performSelector:@selector(xuViewDidSeletView:) withObject:self];
+//    if ([self.delegate respondsToSelector:@selector(xuViewDidSeletView:)]) {
+//        ///实现代理 回调Action
+//        [self.delegate performSelector:@selector(xuViewDidSeletView:) withObject:self];
+//    }
+    
+    id delegate = [[XUEcation alloc]init];
+    if ([delegate respondsToSelector:@selector(xuViewDidSeletView:)]) {
+        
+        [delegate xuViewDidSeletView:self];
     }
+    
+    
     ///判断是否 block响应
     if ([self respondsToSelector:@selector(buttonDidSeletWithBlock:)]){
         
